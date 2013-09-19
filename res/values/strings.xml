@@ -4,5 +4,7 @@
     <string name="app_name">wewrite</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+	<string name="start_typing">Type here</string>
+	<string name="broadcast_text">Broadcast</string>
+    
 </resources>

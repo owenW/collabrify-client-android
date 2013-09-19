@@ -25,7 +25,12 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int RedoButton=0x7f080001;
+        public static final int UndoButton=0x7f080002;
+        public static final int action_settings=0x7f080005;
+        public static final int broadcast_button=0x7f080003;
+        public static final int button1=0x7f080004;
+        public static final int to_broadcast=0x7f080000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -36,8 +41,10 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f040005;
         public static final int app_name=0x7f040000;
+        public static final int broadcast_text=0x7f040007;
         public static final int hello_world=0x7f040001;
         public static final int menu_settings=0x7f040002;
+        public static final int start_typing=0x7f040006;
         public static final int title_activity_main=0x7f040003;
         public static final int url=0x7f040004;
     }
