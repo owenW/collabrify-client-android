@@ -6,5 +6,7 @@
     <string name="hello_world">Hello world!</string>
 	<string name="start_typing">Type here</string>
 	<string name="broadcast_text">Broadcast</string>
+	<string name="redo_text">Redo</string>
+	<string name="undo_text">Undo</string>
     
 </resources>

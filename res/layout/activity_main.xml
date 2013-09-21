@@ -16,31 +16,30 @@
         android:hint="@string/start_typing" />
 
      <Button
-        android:id="@+id/RedoButton"
+        android:id="@+id/redo_button"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/UndoButton"
-        android:layout_alignBottom="@+id/UndoButton"
-        android:layout_toRightOf="@+id/UndoButton"
-        android:text="Redo" />
+        android:layout_alignBaseline="@+id/undo_button"
+        android:layout_alignBottom="@+id/undo_button"
+        android:layout_toRightOf="@+id/undo_button"
+        android:text="@string/redo_text" />
 
     <Button
         android:id="@+id/broadcast_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/to_broadcast"
         android:text="@string/broadcast_text" />
 
     <Button
-        android:id="@+id/UndoButton"
+        android:id="@+id/undo_button"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/to_broadcast"
         android:layout_alignTop="@+id/broadcast_button"
-        android:text="Undo" />
+        android:text="@string/undo_text" />
 
 </RelativeLayout>
